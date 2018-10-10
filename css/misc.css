@@ -1,0 +1,22 @@
+.vision {
+	color: white;
+}
+
+div.vision {
+	
+	background-color:#000080;
+}
+
+.center {
+	display: table-row;
+        text-align:center;
+	vertical-align: middle;
+	padding: 25px
+}
+
+
+.spacer {
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    height: 30px;
+}

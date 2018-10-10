@@ -1,0 +1,39 @@
+img.prop {
+
+    width:100%; /* you can use % */
+    height: auto;
+    padding: 25px;
+
+
+}
+
+img.cover {
+
+    object-fit: cover; /* stretches or shrinks the image proportionally to fill the container. The image is cropped horizontally -or- vertically if necessary. */
+}
+
+
+
+div.prod_row {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img.prod_row {
+   height: 80%;
+}
+
+
+#parent {
+min-height: 100px; /** This will grow the size of the content too **/
+position: relative;
+}
+#growwithparent {
+min-height: 100px; /**  This will grow after 100px height too **/
+position: absolute:
+top: 0;
+bottom: 0;
+left: 0;
+}
